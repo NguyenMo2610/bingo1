@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>BINGO</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css.css" />
+		<script type="text/javascript" src="javascript.js"></script>
+	</head>
+	<body>
+		<form>
+			<fieldset>
+				<label>Số người chơi:</label>
+				<input type="number" name="number" id="number" value="2" min="2">
+				<br>
+				<label>Giá trị lớn nhất của thẻ:</label>
+				<input type="number" name="maxNum" id="maxNum" value="25" min= "25">
+			</fieldset>
+			<label><input type="button" onclick="newCard()" value="Create Card"></label>
+		</form>
+		<div class="content padding" style="max-width:1500px">
+			<div id="bingoTable">
+				
+			</div>
+		</div>
+	</body>
+</html>
